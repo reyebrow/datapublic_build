@@ -1,6 +1,7 @@
-core = 7.x
+core = 7.12
 api = 2
 projects[drupal][type] = core
+projects[drupal][version] = 7.12
 projects[drupal][patch][] = http://drupal.org/files/issues/object_conversion_menu_router_build-972536-1.patch
 projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_limit_on_password_reset-drush.patch
 
@@ -12,6 +13,11 @@ projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_
 ;projects[datapublic][type] = "profile"
 
 ; Contrib Modules
+
+;i18n module was having some issues with Drush so I tried this instead
+projects[i18n][download][type] = "get"
+projects[i18n][download][url] = "http://ftp.drupal.org/files/projects/i18n-7.x-1.4.tar.gz"
+projects[i18n][type] = "module"
 
 projects[addressfield][version] = "1.0-beta2"
 projects[admin_menu][version] = "3.0-rc1"
@@ -28,15 +34,12 @@ projects[features][version] = "1.0-beta4"
 projects[field_collection][version] = "1.x-dev"
 projects[field_group][version] = "1.1"
 projects[geocoder][version] = "1.x-dev"
-projects[geofield][version] = "1.0-beta2"
 projects[google_analytics][]
-projects[i18n][version] = "1.2"
 projects[i18nviews][version] = "3.x-dev"
 projects[imagefield_crop][version] = "1.0"
 projects[jquery_update][version] = "2.2"
 projects[l10n_client][version] = "1.0"
 projects[l10n_update][version] = "1.0-beta2"
-;projects[libraries][version] = "1.0"
 projects[link][version] = "1.0"
 projects[oembed][version] = "0.x-dev"
 projects[menu_block][version] = "2.3"
@@ -51,6 +54,8 @@ projects[variable][version] = "1.1"
 projects[views][version] = "3.0"
 projects[views_datasource][version] = "1.x-dev"
 projects[openlayers][version] = "2.0-beta1"
+projects[geofield][version] = "1.0-beta2"
+;projects[libraries][version] = "1.0"
 
 ; Libraries
 
@@ -92,16 +97,19 @@ projects[tao][version] = "3.0-beta4"
 projects[datapublic_documents][download][type] = "git"
 projects[datapublic_documents][download][url] = "git@ourgit.com:datapublic_documents"
 projects[datapublic_documents][download][branch] = "7.x-1.x"
+projects[datapublic_documents][subdir] = "datapublic_features"
 projects[datapublic_documents][type] = "module"
 
 projects[datapublic_slideshow][download][type] = "git"
 projects[datapublic_slideshow][download][url] = "git@ourgit.com:datapublic_slideshow"
 projects[datapublic_slideshow][download][branch] = "7.x-1.x"
+projects[datapublic_slideshow][subdir] = "datapublic_features"
 projects[datapublic_slideshow][type] = "module"
 
 projects[datapublic_press_releases][download][type] = "git"
 projects[datapublic_press_releases][download][url] = "git@ourgit.com:datapublic_press_releases"
 projects[datapublic_slideshow][download][branch] = "7.x-1.x"
+projects[datapublic_slideshow][subdir] = "datapublic_features"
 projects[datapublic_press_releases][type] = "module"
 
 ;projects[ogdi_field][download][type] = ""
