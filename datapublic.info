@@ -49,7 +49,6 @@ dependencies[] = user
 ; Contrib
 
 dependencies[] = addressfield
-dependencies[] = admin_menu
 dependencies[] = advanced_help
 dependencies[] = ctools
 dependencies[] = cck_select_other
@@ -65,8 +64,8 @@ dependencies[] = field_group
 dependencies[] = geocoder
 dependencies[] = geofield
 dependencies[] = googleanalytics
-dependencies[] = i18n
-dependencies[] = i18nviews
+;dependencies[] = i18n
+;dependencies[] = i18nviews
 dependencies[] = imagefield_crop
 dependencies[] = jquery_update
 dependencies[] = l10n_client
@@ -82,7 +81,7 @@ dependencies[] = token
 dependencies[] = variable
 dependencies[] = views
 dependencies[] = views_ui
-dependencies[] = views_datasource
+;dependencies[] = views_datasource
 dependencies[] = openlayers
 
 

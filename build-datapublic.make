@@ -8,4 +8,3 @@ projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_
 projects[datapublic][download][type] = "git"
 projects[datapublic][download][url] = "colincalnan@git.drupal.org:sandbox/colincalnan/1448588.git"
 projects[datapublic][type] = "profile"
-
