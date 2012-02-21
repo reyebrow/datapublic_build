@@ -14,15 +14,22 @@ projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_
 
 ; Contrib Modules
 
-;i18n module was having some issues with Drush so I tried this instead
+;i18n, views datasource and i18nviews were having some issues with Drush make so I tried this instead
 projects[i18n][download][type] = "get"
 projects[i18n][download][url] = "http://ftp.drupal.org/files/projects/i18n-7.x-1.4.tar.gz"
 projects[i18n][type] = "module"
 
+projects[i18nviews][download][type] = "get"
+projects[i18nviews][download][url] = "http://ftp.drupal.org/files/projects/i18nviews-7.x-3.x-dev.tar.gz"
+projects[i18nviews][type] = "module"
+
+projects[views_datasource][download][type] = "get"
+projects[views_datasource][download][url] = "http://ftp.drupal.org/files/projects/views_datasource-7.x-1.x-dev.tar.gz"
+projects[views_datasource][type] = "module"
+
 projects[addressfield][version] = "1.0-beta2"
-projects[admin_menu][version] = "3.0-rc1"
 projects[advanced_help][version] = "1.0"
-projects[backup_migrate][version] = "2.2"
+projects[backup_migrate][]
 projects[ctools][version] = "1.0-rc1"
 projects[cck_select_other][version] = "1.0"
 projects[computed_field][version] = "1.x-dev"
@@ -34,6 +41,7 @@ projects[features][version] = "1.0-beta4"
 projects[field_collection][version] = "1.x-dev"
 projects[field_group][version] = "1.1"
 projects[geocoder][version] = "1.x-dev"
+projects[geofield][version] = "1.0-beta2"
 projects[google_analytics][]
 projects[i18nviews][version] = "3.x-dev"
 projects[imagefield_crop][version] = "1.0"
@@ -52,9 +60,7 @@ projects[strongarm][version] = "2.0-beta5"
 projects[token][version] = "1.0-beta6"
 projects[variable][version] = "1.1"
 projects[views][version] = "3.0"
-projects[views_datasource][version] = "1.x-dev"
 projects[openlayers][version] = "2.0-beta1"
-projects[geofield][version] = "1.0-beta2"
 ;projects[libraries][version] = "1.0"
 
 ; Libraries
