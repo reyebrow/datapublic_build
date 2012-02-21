@@ -1,0 +1,91 @@
+name = DataPublic
+description = DataPublic Distribution
+version = 7.x-1.0-alpha0
+core = 7.x
+theme = bartik
+
+; -----------------------------------------------------------------------------
+;                                  Modules
+; -----------------------------------------------------------------------------
+; List the modules (core, contrib and/or features) to be enabled in the
+; dependencies[] array. Any dependencies of the listed modules will be detected
+; and enabled automatically.
+; -----------------------------------------------------------------------------
+
+; Core
+
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = translation
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = statistics
+dependencies[] = syslog
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = user
+
+; Contrib
+
+dependencies[] = addressfield
+dependencies[] = admin_menu
+dependencies[] = advanced_help
+dependencies[] = ctools
+dependencies[] = cck_select_other
+dependencies[] = computed_field
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = custom_breadcrumbs
+dependencies[] = date
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = field_collection
+dependencies[] = field_group
+dependencies[] = geocoder
+dependencies[] = geofield
+dependencies[] = googleanalytics
+dependencies[] = i18n
+dependencies[] = i18nviews
+dependencies[] = imagefield_crop
+dependencies[] = jquery_update
+dependencies[] = l10n_client
+dependencies[] = l10n_update
+dependencies[] = oembed
+dependencies[] = menu_block
+dependencies[] = menu_breadcrumb
+dependencies[] = references
+dependencies[] = pathauto
+dependencies[] = poormanscron
+dependencies[] = semanticviews
+dependencies[] = token
+dependencies[] = variable
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = views_datasource
+dependencies[] = openlayers
+
+
+; Profile
+
+files[] = datapublic.profile
