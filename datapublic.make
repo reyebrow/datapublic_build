@@ -29,7 +29,7 @@ projects[views_datasource][type] = "module"
 
 projects[addressfield][version] = "1.0-beta2"
 projects[advanced_help][version] = "1.0"
-projects[backup_migrate][]
+projects[captcha][]
 projects[ctools][version] = "1.0-rc1"
 projects[cck_select_other][version] = "1.0"
 projects[computed_field][version] = "1.x-dev"
@@ -44,6 +44,8 @@ projects[geocoder][version] = "1.x-dev"
 projects[geofield][version] = "1.0-beta2"
 projects[google_analytics][]
 projects[i18nviews][version] = "3.x-dev"
+projects[imce][]
+projects[imce_wysiwyg][]
 projects[imagefield_crop][version] = "1.0"
 projects[jquery_update][version] = "2.2"
 projects[l10n_client][version] = "1.0"
@@ -62,6 +64,9 @@ projects[variable][version] = "1.1"
 projects[views][version] = "3.0"
 projects[openlayers][version] = "2.0-beta1"
 ;projects[libraries][version] = "1.0"
+projects[webform][]
+projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211.patch"
 
 ; Libraries
 
@@ -117,6 +122,19 @@ projects[datapublic_press_releases][download][url] = "git@ourgit.com:datapublic_
 projects[datapublic_slideshow][download][branch] = "7.x-1.x"
 projects[datapublic_slideshow][subdir] = "datapublic_features"
 projects[datapublic_press_releases][type] = "module"
+
+projects[datapublic_defaults][download][type] = "git"
+projects[datapublic_defaults][download][url] = "git@ourgit.com:datapublic_defaults"
+projects[datapublic_defaults][download][branch] = "7.x-1.x"
+projects[datapublic_defaults][subdir] = "datapublic_features"
+projects[datapublic_defaults][type] = "module"
+
+projects[re_wysiwyg_profile][download][type] = "git"
+projects[re_wysiwyg_profile][download][url] = "git@ourgit.com:re_wysiwyg_profile"
+projects[re_wysiwyg_profile][download][branch] = "7.x-1.x"
+projects[re_wysiwyg_profile][subdir] = "datapublic_features"
+projects[re_wysiwyg_profile][type] = "module"
+
 
 ;projects[ogdi_field][download][type] = ""
 ;projects[ogdi_field][download][url] = ""

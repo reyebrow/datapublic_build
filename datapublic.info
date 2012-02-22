@@ -50,6 +50,7 @@ dependencies[] = user
 
 dependencies[] = addressfield
 dependencies[] = advanced_help
+dependencies[] = captcha
 dependencies[] = ctools
 dependencies[] = cck_select_other
 dependencies[] = computed_field
@@ -83,7 +84,7 @@ dependencies[] = views
 dependencies[] = views_ui
 ;dependencies[] = views_datasource
 dependencies[] = openlayers
-
+dependencies[] = webform
 
 ; Profile
 
