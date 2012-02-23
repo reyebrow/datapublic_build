@@ -65,7 +65,9 @@ projects[token][version] = "1.0-beta6"
 projects[variable][version] = "1.1"
 projects[views][version] = "3.0"
 projects[openlayers][version] = "2.0-beta1"
-projects[remote_stream_wrapper][] = "1.0-beta3+0-dev"
+projects[remote_stream_wrapper][version] = "1.0-beta3+0-dev"
+projects[twitter][]
+projects[follow][]
 ;projects[libraries][version] = "1.0"
 projects[webform][]
 projects[wysiwyg][version] = "2.1"
