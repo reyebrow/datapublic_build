@@ -67,11 +67,14 @@ dependencies[] = geofield
 dependencies[] = googleanalytics
 ;dependencies[] = i18n
 ;dependencies[] = i18nviews
+dependencies[] = imce
+dependencies[] = imce_wysiwyg
 dependencies[] = imagefield_crop
 dependencies[] = jquery_update
 dependencies[] = l10n_client
 dependencies[] = l10n_update
 dependencies[] = oembed
+dependencies[] = oembedthumbnail
 dependencies[] = menu_block
 dependencies[] = menu_breadcrumb
 dependencies[] = references
@@ -85,7 +88,7 @@ dependencies[] = views_ui
 ;dependencies[] = views_datasource
 dependencies[] = openlayers
 dependencies[] = webform
-
+dependencies[] = wysiwyg
 ; Profile
 
 files[] = datapublic.profile
