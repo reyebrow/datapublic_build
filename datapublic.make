@@ -14,6 +14,19 @@ projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_
 
 ; Contrib Modules
 
+;TO DO - These should not be dev versions - Datasets is responsible for most of this
+projects[computed_field][version] = "1.x-dev"
+projects[entity][version] = "1.x-dev"
+projects[field_collection][version] = "1.x-dev"
+projects[field_collection][patch][] = "http://drupal.org/files/features-json_export-5494514-27.patch"
+projects[field_collection][patch][] = "http://drupal.org/files/field_collection-missing_bundle-1281974-14.patch"
+projects[geocoder][version] = "1.x-dev"
+projects[i18nviews][version] = "3.x-dev"
+projects[poormanscron][version] = "2.x-dev"
+projects[remote_stream_wrapper][version] = "1.0-beta3+0-dev"
+projects[semanticviews][version] = "1.x-dev"
+
+
 ;i18n, views datasource and i18nviews were having some issues with Drush make so I tried this instead
 projects[i18n][download][type] = "get"
 projects[i18n][download][url] = "http://ftp.drupal.org/files/projects/i18n-7.x-1.4.tar.gz"
@@ -28,22 +41,20 @@ projects[views_datasource][download][url] = "http://ftp.drupal.org/files/project
 projects[views_datasource][type] = "module"
 
 projects[addressfield][version] = "1.0-beta2"
+projects[addressfield][patch][] = "http://drupal.org/files/addressfield-doubleprefix-1410612.patch"
 projects[advanced_help][version] = "1.0"
 projects[captcha][]
 projects[ctools][version] = "1.0-rc1"
 projects[cck_select_other][version] = "1.0"
-projects[computed_field][version] = "1.x-dev"
 projects[context][version] = "3.0-beta2"
 projects[custom_breadcrumbs][version] = "1.0-alpha1"
 projects[date][version] = "2.0-rc1"
-projects[entity][version] = "1.0-rc1"
+projects[fe_block][]
 projects[features][version] = "1.0-beta4"
-projects[field_collection][version] = "1.x-dev"
 projects[field_group][version] = "1.1"
-projects[geocoder][version] = "1.x-dev"
+projects[follow][]
 projects[geofield][version] = "1.0-beta2"
 projects[google_analytics][]
-projects[i18nviews][version] = "3.x-dev"
 projects[imce][]
 projects[imce_wysiwyg][]
 projects[imagefield_crop][version] = "1.0"
@@ -58,16 +69,12 @@ projects[menu_block][version] = "2.3"
 projects[menu_breadcrumb][version] = "1.3"
 projects[references][version] = "2.0-beta3"
 projects[pathauto][version] = "1.0-rc2"
-projects[poormanscron][version] = "2.x-dev"
-projects[semanticviews][version] = "1.x-dev"
 projects[strongarm][version] = "2.0-beta5"
 projects[token][version] = "1.0-beta6"
 projects[variable][version] = "1.1"
 projects[views][version] = "3.0"
 projects[openlayers][version] = "2.0-beta1"
-projects[remote_stream_wrapper][version] = "1.0-beta3+0-dev"
 projects[twitter][]
-projects[follow][]
 ;projects[libraries][version] = "1.0"
 projects[webform][]
 projects[wysiwyg][version] = "2.1"
