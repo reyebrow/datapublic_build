@@ -147,6 +147,12 @@ projects[re_wysiwyg_profile][download][branch] = "7.x-1.x"
 projects[re_wysiwyg_profile][subdir] = "datapublic_features"
 projects[re_wysiwyg_profile][type] = "module"
 
+projects[re_block_width][download][type] = "git"
+projects[re_block_width][download][url] = "git@ourgit.com:re_block_width"
+projects[re_block_width][download][branch] = "7.x-1.x"
+projects[re_block_width][subdir] = "datapublic_features"
+projects[re_block_width][type] = "module"
+
 
 ;projects[ogdi_field][download][type] = ""
 ;projects[ogdi_field][download][url] = ""
