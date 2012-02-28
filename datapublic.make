@@ -11,17 +11,12 @@ projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_
 ;TO DO - These should not be dev versions - Datasets is responsible for most of this
 projects[computed_field][version] = "1.x-dev"
 projects[geocoder][version] = "1.x-dev"
-;projects[i18nviews][version] = "3.x-dev"
+projects[i18nviews][version] = "3.x-dev"
 projects[poormanscron][version] = "2.x-dev"
 ;projects[remote_stream_wrapper][version] = "1.0-beta3+0-dev"
 projects[remote_stream_wrapper][version] = "1.x-dev"
 projects[semanticviews][version] = "1.x-dev"
 projects[features_extra][version] = "1.x-dev"
-
-;i18n, views datasource and i18nviews were having some issues with Drush make so I tried this instead
-projects[i18n][download][type] = "get"
-projects[i18n][download][url] = "http://ftp.drupal.org/files/projects/i18n-7.x-1.4.tar.gz"
-projects[i18n][type] = "module"
 
 ;projects[i18nviews][download][type] = "get"
 ;projects[i18nviews][download][url] = "http://ftp.drupal.org/files/projects/i18nviews-7.x-3.x-dev.tar.gz"
