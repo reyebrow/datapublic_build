@@ -37,6 +37,7 @@ projects[custom_breadcrumbs][version] = "1.0-alpha1"
 ;projects[custom_breadcrumbs][patch][] = "http://drupal.org/files/issues/579690_7-1_custom_breadcrumbs_features_export-1.patch"
 
 projects[date][version] = "2.0-rc1"
+projects[defaultcontent][version] = "2.x-dev"
 projects[entity][version] = "1.0-rc1"
 
 projects[features][version] = "1.0-beta6"
