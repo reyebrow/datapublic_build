@@ -6,11 +6,6 @@ projects[drupal][patch][] = http://drupal.org/files/issues/object_conversion_men
 projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_limit_on_password_reset-drush.patch
 
 
-; Profiles
-;projects[datapublic][download][type] = ""
-;projects[datapublic][download][url] = ""
-;projects[datapublic][type] = "profile"
-
 ; Contrib Modules
 
 ;TO DO - These should not be dev versions - Datasets is responsible for most of this
@@ -28,13 +23,12 @@ projects[i18n][download][type] = "get"
 projects[i18n][download][url] = "http://ftp.drupal.org/files/projects/i18n-7.x-1.4.tar.gz"
 projects[i18n][type] = "module"
 
-projects[i18nviews][download][type] = "get"
-projects[i18nviews][download][url] = "http://ftp.drupal.org/files/projects/i18nviews-7.x-3.x-dev.tar.gz"
-projects[i18nviews][type] = "module"
+;projects[i18nviews][download][type] = "get"
+;projects[i18nviews][download][url] = "http://ftp.drupal.org/files/projects/i18nviews-7.x-3.x-dev.tar.gz"
+;projects[i18nviews][type] = "module"
 
 projects[addressfield][version] = "1.0-beta2"
 projects[addressfield][patch][] = "http://drupal.org/files/addressfield-doubleprefix-1410612.patch"
-projects[addressfield][patch][] = "http://drupal.org/files/issues/579690_7-1_custom_breadcrumbs_features_export-1.patch"
 
 projects[advanced_help][version] = "1.0"
 projects[captcha][version] ="1.0-beta2"
@@ -44,6 +38,7 @@ projects[context][version] = "3.0-beta2"
 
 projects[custom_breadcrumbs][version] = "1.0-alpha1"
 projects[custom_breadcrumbs][patch][] = "http://drupal.org/files/custom_breadcrumbs-HTML_decode-1059124-6.patch"
+projects[custom_breadcrumbs][patch][] = "http://drupal.org/files/issues/579690_7-1_custom_breadcrumbs_features_export-1.patch"
 
 projects[date][version] = "2.0-rc1"
 projects[entity][version] = "1.0-rc1"
@@ -122,13 +117,14 @@ libraries[tinymce][type] = "library"
 projects[rubik][version] = "4.0-beta7"
 projects[tao][version] = "3.0-beta4"
 
-;projects[cogito][download][type] = ""
-;projects[cogito][download][url] = ""
-;projects[cogito][type] = "theme"
+projects[cogito][download][type] = "git"
+projects[cogito][download][url] = "git@github.com:reyebrow/cogito.git"
+projects[cogito][download][branch] = "7.x-1.x"
+projects[cogito][type] = "theme"
 
 projects[datapublic_theme][download][type] = "git"
 projects[datapublic_theme][download][url] = "git@github.com:reyebrow/datapublic_theme.git"
-projects[datapublic_blog][type] = "theme"
+projects[datapublic_theme][type] = "theme"
 
 
 ; DataPublic Modules
@@ -218,14 +214,14 @@ projects[re_wysiwyg_profile][download][branch] = "7.x-1.x"
 projects[re_wysiwyg_profile][subdir] = "datapublic_features"
 projects[re_wysiwyg_profile][type] = "module"
 
-projects[re_block_width][download][type] = "git"
-projects[re_block_width][download][url] = "git@github.com:reyebrow/re_block_width.git"
-projects[re_block_width][download][branch] = "7.x-1.x"
-projects[re_block_width][subdir] = "datapublic_features"
-projects[re_block_width][type] = "module"
-
 projects[re_silverlight_map][download][type] = "git"
 projects[re_silverlight_map][download][url] = "git@github.com:reyebrow/re_silverlight_map.git"
 projects[re_silverlight_map][download][branch] = "7.x-1.x"
 projects[re_silverlight_map][subdir] = "datapublic_features"
 projects[re_silverlight_map][type] = "module"
+
+projects[re_block_width][download][type] = "git"
+projects[re_block_width][download][url] = "git@github.com:reyebrow/re_block_width.git"
+projects[re_block_width][download][branch] = "7.x-1.x"
+projects[re_block_width][subdir] = "datapublic_features"
+projects[re_block_width][type] = "module"
