@@ -225,3 +225,9 @@ projects[re_block_width][download][url] = "git@github.com:reyebrow/re_block_widt
 projects[re_block_width][download][branch] = "7.x-1.x"
 projects[re_block_width][subdir] = "datapublic_features"
 projects[re_block_width][type] = "module"
+
+projects[re_orbit][download][type] = "git"
+projects[re_orbit][download][url] = "git@github.com:reyebrow/re_orbit.git"
+projects[re_orbit][download][branch] = "7.x-1.x"
+projects[re_orbit][subdir] = "datapublic_features"
+projects[re_orbit][type] = "module"
