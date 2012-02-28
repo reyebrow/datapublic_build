@@ -12,8 +12,10 @@ projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_
 projects[computed_field][version] = "1.x-dev"
 projects[geocoder][version] = "1.x-dev"
 projects[poormanscron][version] = "2.x-dev"
-;projects[remote_stream_wrapper][version] = "1.0-beta3+0-dev"
+
 projects[remote_stream_wrapper][version] = "1.x-dev"
+projects[remote_stream_wrapper][patch][] = "http://drupal.org/files/0001-Bug-1444626-Module-should-work-with-Media-module-dis_0.patch"
+
 projects[semanticviews][version] = "1.x-dev"
 projects[features_extra][version] = "1.x-dev"
 
@@ -61,6 +63,7 @@ projects[menu_block][version] = "2.3"
 projects[menu_breadcrumb][version] = "1.3"
 projects[references][version] = "2.0-beta3"
 projects[pathauto][version] = "1.0-rc2"
+projects[re_contextlibraries][version] = "2.0"
 projects[rss_field_formatters][version] = "1.2"
 projects[strongarm][version] = "2.0-beta5"
 projects[token][version] = "1.0-beta6"
@@ -86,7 +89,6 @@ projects[ogdi_field][type] = "module"
 
 projects[i18nviews][version] = "3.x-dev"
 projects[oembed][version] = "0.x-dev"
-projects[media][version] = "2.0-unstable3"
 projects[oembedthumbnail][version] = "0.1"
 
 ; Libraries

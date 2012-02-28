@@ -65,6 +65,7 @@ dependencies[] = date_views
 
 
 dependencies[] = entity
+dependencies[] = file_entity
 dependencies[] = fe_block
 dependencies[] = features
 dependencies[] = field_collection
@@ -101,6 +102,7 @@ dependencies[] = menu_block
 dependencies[] = menu_breadcrumb
 dependencies[] = node_reference
 dependencies[] = ogdi_field
+dependencies[] = re_contextlibraries
 dependencies[] = references
 dependencies[] = pathauto
 dependencies[] = poormanscron
@@ -126,6 +128,26 @@ dependencies[] = xmlsitemap_engines
 dependencies[] = xmlsitemap_i18n
 dependencies[] = xmlsitemap_menu
 dependencies[] = xmlsitemap_node
+
+; Features
+
+dependencies[] = datapublic_blog
+dependencies[] = datapublic_datasets
+dependencies[] = datapublic_defaults
+dependencies[] = datapublic_demo
+dependencies[] = datapublic_documents
+dependencies[] = datapublic_events
+dependencies[] = datapublic_page
+dependencies[] = datapublic_photo_gallery
+dependencies[] = datapublic_press_releases
+dependencies[] = datapublic_profiles
+dependencies[] = datapublic_services
+dependencies[] = datapublic_slideshow
+dependencies[] = datapublic_videos
+dependencies[] = re_wysiwyg_profile
+dependencies[] = re_silverlight_map
+dependencies[] = re_block_Width
+dependencies[] = re_orbit
 
 ; Profile
 
