@@ -13,7 +13,7 @@ projects[computed_field][version] = "1.x-dev"
 projects[geocoder][version] = "1.x-dev"
 projects[poormanscron][version] = "2.x-dev"
 
-projects[remote_stream_wrapper][version] = "1.x-dev"
+projects[remote_stream_wrapper][version] = "1.0-beta3"
 projects[remote_stream_wrapper][patch][] = "http://drupal.org/files/0001-Bug-1444626-Module-should-work-with-Media-module-dis_0.patch"
 
 projects[semanticviews][version] = "1.x-dev"
