@@ -37,8 +37,8 @@ projects[cck_select_other][version] = "1.0"
 projects[context][version] = "3.0-beta2"
 
 projects[custom_breadcrumbs][version] = "1.0-alpha1"
-projects[custom_breadcrumbs][patch][] = "http://drupal.org/files/custom_breadcrumbs-HTML_decode-1059124-6.patch"
-projects[custom_breadcrumbs][patch][] = "http://drupal.org/files/issues/579690_7-1_custom_breadcrumbs_features_export-1.patch"
+;projects[custom_breadcrumbs][patch][] = "http://drupal.org/files/custom_breadcrumbs-HTML_decode-1059124-6.patch"
+;projects[custom_breadcrumbs][patch][] = "http://drupal.org/files/issues/579690_7-1_custom_breadcrumbs_features_export-1.patch"
 
 projects[date][version] = "2.0-rc1"
 projects[entity][version] = "1.0-rc1"
