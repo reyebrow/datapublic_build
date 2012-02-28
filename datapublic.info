@@ -2,7 +2,7 @@ name = DataPublic
 description = DataPublic Distribution
 version = 7.x-1.0-alpha0
 core = 7.x
-theme = bartik
+theme = datapublic_theme
 
 ; -----------------------------------------------------------------------------
 ;                                  Modules
@@ -16,9 +16,7 @@ theme = bartik
 
 dependencies[] = block
 dependencies[] = comment
-dependencies[] = contact
 dependencies[] = translation
-dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = dblog
 dependencies[] = field
@@ -39,11 +37,11 @@ dependencies[] = rdf
 dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = statistics
-dependencies[] = syslog
 dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = toolbar
+dependencies[] = update
 dependencies[] = user
 
 ; Contrib
@@ -51,44 +49,84 @@ dependencies[] = user
 dependencies[] = addressfield
 dependencies[] = advanced_help
 dependencies[] = captcha
+dependencies[] = image_captcha
 dependencies[] = ctools
 dependencies[] = cck_select_other
 dependencies[] = computed_field
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = custom_breadcrumbs
+
 dependencies[] = date
+dependencies[] = date_all_day
+dependencies[] = date_popup
+dependencies[] = date_repeat_field
+dependencies[] = date_views
+
+
 dependencies[] = entity
+dependencies[] = fe_block
 dependencies[] = features
 dependencies[] = field_collection
 dependencies[] = field_group
+dependencies[] = follow
 dependencies[] = geocoder
 dependencies[] = geofield
 dependencies[] = googleanalytics
-;dependencies[] = i18n
-;dependencies[] = i18nviews
+dependencies[] = i18n
+dependencies[] = i18n_block
+dependencies[] = i18n_field
+dependencies[] = i18n_menu
+dependencies[] = i18n_node
+dependencies[] = i18n_string
+dependencies[] = i18n_taxonomy
+dependencies[] = i18n_redirect
+dependencies[] = i18n_variable
+dependencies[] = i18nviews
 dependencies[] = imce
 dependencies[] = imce_wysiwyg
 dependencies[] = imagefield_crop
 dependencies[] = jquery_update
 dependencies[] = l10n_client
 dependencies[] = l10n_update
+dependencies[] = libraries
+dependencies[] = link
 dependencies[] = oembed
+dependencies[] = oembed_core
+dependencies[] = oembed_field
 dependencies[] = oembedthumbnail
+dependencies[] = openlayers
+dependencies[] = openlayers_ui
 dependencies[] = menu_block
 dependencies[] = menu_breadcrumb
+dependencies[] = node_reference
+dependencies[] = ogdi_field
 dependencies[] = references
 dependencies[] = pathauto
 dependencies[] = poormanscron
+dependencies[] = remote_stream_wrapper
+dependencies[] = rss_georss
 dependencies[] = semanticviews
+dependencies[] = strongarm
+dependencies[] = superfish
 dependencies[] = token
+dependencies[] = twitter
+dependencies[] = user_reference
+dependencies[] = uuid
 dependencies[] = variable
+dependencies[] = variable_realm
+dependencies[] = variable_store
 dependencies[] = views
 dependencies[] = views_ui
 ;dependencies[] = views_datasource
-dependencies[] = openlayers
 dependencies[] = webform
 dependencies[] = wysiwyg
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_i18n
+dependencies[] = xmlsitemap_menu
+dependencies[] = xmlsitemap_node
+
 ; Profile
 
 files[] = datapublic.profile
