@@ -11,7 +11,6 @@ projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_
 ;TO DO - These should not be dev versions - Datasets is responsible for most of this
 projects[computed_field][version] = "1.x-dev"
 projects[geocoder][version] = "1.x-dev"
-projects[i18nviews][version] = "3.x-dev"
 projects[poormanscron][version] = "2.x-dev"
 ;projects[remote_stream_wrapper][version] = "1.0-beta3+0-dev"
 projects[remote_stream_wrapper][version] = "1.x-dev"
@@ -57,9 +56,6 @@ projects[jquery_update][version] = "2.2"
 projects[l10n_client][version] = "1.0"
 projects[l10n_update][version] = "1.0-beta2"
 projects[link][version] = "1.0"
-projects[oembed][version] = "0.x-dev"
-projects[media][version] = "2.0-unstable3"
-projects[oembedthumbnail][version] = "0.1"
 projects[menu_block][version] = "2.3"
 projects[menu_breadcrumb][version] = "1.3"
 projects[references][version] = "2.0-beta3"
@@ -86,6 +82,11 @@ projects[ogdi_field][download][type] = "git"
 projects[ogdi_field][download][url] = "colincalnan@git.drupal.org:project/ogdi_field.git"
 projects[ogdi_field][download][branch] = "7.x-1.x"
 projects[ogdi_field][type] = "module"
+
+projects[i18nviews][version] = "3.x-dev"
+projects[oembed][version] = "0.x-dev"
+projects[media][version] = "2.0-unstable3"
+projects[oembedthumbnail][version] = "0.1"
 
 ; Libraries
 
