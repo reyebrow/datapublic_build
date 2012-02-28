@@ -16,10 +16,6 @@ projects[drupal][patch][] = http://drupal.org/files/issues/992540-3-reset_flood_
 
 ;TO DO - These should not be dev versions - Datasets is responsible for most of this
 projects[computed_field][version] = "1.x-dev"
-projects[entity][version] = "1.x-dev"
-projects[field_collection][version] = "1.x-dev"
-projects[field_collection][patch][] = "http://drupal.org/files/features-json_export-5494514-27.patch"
-projects[field_collection][patch][] = "http://drupal.org/files/field_collection-missing_bundle-1281974-14.patch"
 projects[geocoder][version] = "1.x-dev"
 projects[i18nviews][version] = "3.x-dev"
 projects[poormanscron][version] = "2.x-dev"
@@ -49,8 +45,13 @@ projects[cck_select_other][version] = "1.0"
 projects[context][version] = "3.0-beta2"
 projects[custom_breadcrumbs][version] = "1.0-alpha1"
 projects[date][version] = "2.0-rc1"
+projects[entity][version] = "1.0-rc1"
 projects[fe_block][]
-projects[features][version] = "1.0-beta4"
+projects[features][version] = "1.0-beta6"
+projects[features][patch][] = "http://drupal.org/files/features-json_export-5494514-27.patch"
+projects[field_collection][version] = "1.0-beta3"
+projects[field_collection][patch][] = "http://drupal.org/files/field_collection-missing_bundle-1281974-14.patch"
+projects[field_collection][patch][] = "http://drupal.org/files/fix-blank-item-problems-1239946-39.patch"
 projects[field_group][version] = "1.1"
 projects[follow][]
 projects[geofield][version] = "1.0-beta2"
@@ -109,9 +110,9 @@ projects[tao][version] = "3.0-beta4"
 ;projects[cogito][download][url] = ""
 ;projects[cogito][type] = "theme"
 
-;projects[datapublic][download][type] = ""
-;projects[datapublic][download][url] = ""
-;projects[datapublic][type] = "theme"
+;projects[datapublic_theme][download][type] = ""
+;projects[datapublic_theme][download][url] = ""
+;projects[datapublic_theme][type] = "theme"
 
 
 ; DataPublic Modules
@@ -153,6 +154,11 @@ projects[re_block_width][download][branch] = "7.x-1.x"
 projects[re_block_width][subdir] = "datapublic_features"
 projects[re_block_width][type] = "module"
 
+projects[re_silverlight_map][download][type] = "git"
+projects[re_silverlight_map][download][url] = "git@ourgit.com:re_silverlight_map"
+projects[re_silverlight_map][download][branch] = "7.x-1.x"
+projects[re_silverlight_map][subdir] = "datapublic_features"
+projects[re_silverlight_map][type] = "module"
 
 ;projects[ogdi_field][download][type] = ""
 ;projects[ogdi_field][download][url] = ""
