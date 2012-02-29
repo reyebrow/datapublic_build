@@ -1,6 +1,6 @@
 name = DataPublic
 description = DataPublic Distribution
-version = 7.x-1.0-alpha0
+version = 7.x-1.0-beta1
 core = 7.x
 theme = datapublic_theme
 
@@ -65,7 +65,6 @@ dependencies[] = date_views
 
 dependencies[] = defaultcontent
 dependencies[] = entity
-dependencies[] = file_entity
 dependencies[] = fe_block
 dependencies[] = features
 dependencies[] = field_collection
@@ -146,7 +145,7 @@ dependencies[] = datapublic_slideshow
 dependencies[] = datapublic_videos
 dependencies[] = re_wysiwyg_profile
 dependencies[] = re_silverlight_map
-dependencies[] = re_block_Width
+dependencies[] = re_block_width
 dependencies[] = re_orbit
 
 ; Profile
