@@ -122,11 +122,6 @@ dependencies[] = views_ui
 dependencies[] = views_json
 dependencies[] = webform
 dependencies[] = wysiwyg
-dependencies[] = xmlsitemap
-dependencies[] = xmlsitemap_engines
-dependencies[] = xmlsitemap_i18n
-dependencies[] = xmlsitemap_menu
-dependencies[] = xmlsitemap_node
 
 ; Features
 

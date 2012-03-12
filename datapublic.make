@@ -81,8 +81,6 @@ projects[webform][version] = "3.15"
 projects[wysiwyg][version] = "2.1"
 projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211.patch"
 
-projects[xmlsitemap][version] = "2.0-rc1"
-
 projects[ogdi_field][download][type] = "git"
 projects[ogdi_field][download][url] = "colincalnan@git.drupal.org:project/ogdi_field.git"
 projects[ogdi_field][download][branch] = "7.x-1.x"
