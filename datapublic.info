@@ -127,7 +127,13 @@ dependencies[] = wysiwyg
 
 dependencies[] = datapublic_blog
 dependencies[] = datapublic_datasets
-dependencies[] = datapublic_defaults
+dependencies[] = datapublic_variables
+dependencies[] = datapublic_default_content
+dependencies[] = datapublic_blocks
+dependencies[] = datapublic_contexts
+dependencies[] = datapublic_superfish
+dependencies[] = datapublic_menublocks
+dependencies[] = datapublic_permissions
 dependencies[] = datapublic_demo
 dependencies[] = datapublic_documents
 dependencies[] = datapublic_events
