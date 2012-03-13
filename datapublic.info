@@ -48,6 +48,7 @@ dependencies[] = user
 
 dependencies[] = addressfield
 dependencies[] = advanced_help
+dependencies[] = boxes
 dependencies[] = captcha
 dependencies[] = image_captcha
 dependencies[] = ctools
@@ -69,6 +70,7 @@ dependencies[] = fe_block
 dependencies[] = features
 dependencies[] = field_collection
 dependencies[] = field_group
+dependencies[] = file_entity
 dependencies[] = follow
 dependencies[] = geocoder
 dependencies[] = geofield

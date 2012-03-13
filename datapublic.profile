@@ -2,7 +2,7 @@
 /**
  * Implements hook_init
  */
-function datapublic_init() {
+/*function datapublic_init() {
  $cache = cache_get("datapublic_info");
  if (isset($cache->data)) {
    $data = $cache->data;
@@ -12,9 +12,7 @@ function datapublic_init() {
    $data = array("profile" => "datapublic", "profile_version" => $info['version']);
    cache_set("datapublic_info", $data);
  }
- drupal_add_js($data, 'setting');
-
-}
+}*/
 
 
 /**
