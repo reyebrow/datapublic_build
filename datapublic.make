@@ -139,17 +139,17 @@ projects[datapublic_blog][download][branch] = "7.x-1.x"
 projects[datapublic_blog][subdir] = "datapublic_features"
 projects[datapublic_blog][type] = "module"
 
-projects[datapublic_datasets][download][type] = "git"
-projects[datapublic_datasets][download][url] = "git@github.com:reyebrow/datapublic_datasets.git"
-projects[datapublic_datasets][download][branch] = "7.x-1.x"
-projects[datapublic_datasets][subdir] = "datapublic_features"
-projects[datapublic_datasets][type] = "module"
-
 projects[datapublic_documents][download][type] = "git"
 projects[datapublic_documents][download][url] = "git@github.com:reyebrow/datapublic_documents.git"
 projects[datapublic_documents][download][branch] = "7.x-1.x"
 projects[datapublic_documents][subdir] = "datapublic_features"
 projects[datapublic_documents][type] = "module"
+
+projects[datapublic_datasets][download][type] = "git"
+projects[datapublic_datasets][download][url] = "git@github.com:reyebrow/datapublic_datasets.git"
+projects[datapublic_datasets][download][branch] = "7.x-1.x"
+projects[datapublic_datasets][subdir] = "datapublic_features"
+projects[datapublic_datasets][type] = "module"
 
 projects[datapublic_events][download][type] = "git"
 projects[datapublic_events][download][url] = "git@github.com:reyebrow/datapublic_events.git"

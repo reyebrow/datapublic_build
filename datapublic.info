@@ -72,6 +72,7 @@ dependencies[] = field_collection
 dependencies[] = field_group
 dependencies[] = file_entity
 dependencies[] = follow
+dependencies[] = fullcalendar
 dependencies[] = geocoder
 dependencies[] = geofield
 dependencies[] = geophp
@@ -130,8 +131,8 @@ dependencies[] = wysiwyg
 
 dependencies[] = datapublic_default_content
 dependencies[] = datapublic_blog
-dependencies[] = datapublic_datasets
 dependencies[] = datapublic_documents
+dependencies[] = datapublic_datasets
 dependencies[] = datapublic_events
 dependencies[] = datapublic_page
 dependencies[] = datapublic_photo_gallery
