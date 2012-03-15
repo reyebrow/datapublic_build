@@ -130,6 +130,9 @@ dependencies[] = wysiwyg
 ; Features
 
 dependencies[] = re_wysiwyg_profile
+dependencies[] = re_block_width
+dependencies[] = re_silverlight_map
+dependencies[] = re_orbit
 
 dependencies[] = datapublic_page
 dependencies[] = datapublic_default_content
@@ -152,9 +155,6 @@ dependencies[] = datapublic_contexts
 dependencies[] = datapublic_variables
 dependencies[] = datapublic_demo
 
-dependencies[] = re_silverlight_map
-dependencies[] = re_block_width
-dependencies[] = re_orbit
 
 dependencies[] = datapublic_permissions
 
