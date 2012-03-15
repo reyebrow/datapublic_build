@@ -1,12 +1,4 @@
 <?php
-/**
- * Implements hook_init
- */
-function datapublic_init() {
-  // Setting the main menu block title, this seems to be the only place it can be done.
-  db_query("UPDATE {block} SET title ='<none>' WHERE AND module = 'superfish' AND delta = '1'");
-}
-
 
 /**
  * Implements hook_install_configure_form_alter()
