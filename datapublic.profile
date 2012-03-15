@@ -2,8 +2,8 @@
 /**
  * Implements hook_init
  */
-/*function datapublic_init() {
- $cache = cache_get("datapublic_info");
+function datapublic_init() {
+ /*$cache = cache_get("datapublic_info");
  if (isset($cache->data)) {
    $data = $cache->data;
  }
@@ -11,8 +11,12 @@
    $info =  drupal_parse_info_file(dirname(__file__) . '/datapublic.info');
    $data = array("profile" => "datapublic", "profile_version" => $info['version']);
    cache_set("datapublic_info", $data);
- }
-}*/
+ }*/
+
+  //$superfish = db_query("UPDATE {block} SET title ='<none>' WHERE theme = 'datapublic_theme' AND module = 'superfish' AND delta = '4'");
+  //drupal_set_message('Install hook in datapublic.install returned: ' . $superfish->row_count,  'status');
+
+}
 
 
 /**

@@ -129,12 +129,14 @@ dependencies[] = wysiwyg
 
 ; Features
 
+dependencies[] = re_wysiwyg_profile
+
+dependencies[] = datapublic_page
 dependencies[] = datapublic_default_content
 dependencies[] = datapublic_blog
 dependencies[] = datapublic_documents
 dependencies[] = datapublic_datasets
 dependencies[] = datapublic_events
-dependencies[] = datapublic_page
 dependencies[] = datapublic_photo_gallery
 dependencies[] = datapublic_press_releases
 dependencies[] = datapublic_profiles
@@ -150,7 +152,6 @@ dependencies[] = datapublic_contexts
 dependencies[] = datapublic_variables
 dependencies[] = datapublic_demo
 
-dependencies[] = re_wysiwyg_profile
 dependencies[] = re_silverlight_map
 dependencies[] = re_block_width
 dependencies[] = re_orbit
