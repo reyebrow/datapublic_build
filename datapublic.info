@@ -129,6 +129,8 @@ dependencies[] = wysiwyg
 
 ; Features
 
+dependencies[] = datapublic_roles
+
 dependencies[] = re_wysiwyg_profile
 dependencies[] = re_block_width
 dependencies[] = re_silverlight_map
