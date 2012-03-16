@@ -134,6 +134,12 @@ projects[datapublic_theme][type] = "theme"
 ; DataPublic Modules
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
+projects[datapublic_default_content][download][type] = "git"
+projects[datapublic_default_content][download][url] = "git@github.com:reyebrow/datapublic_default_content.git"
+projects[datapublic_default_content][download][branch] = "7.x-1.x"
+projects[datapublic_default_content][subdir] = "datapublic_features"
+projects[datapublic_default_content][type] = "module"
+
 projects[datapublic_blog][download][type] = "git"
 projects[datapublic_blog][download][url] = "git@github.com:reyebrow/datapublic_blog.git"
 projects[datapublic_blog][download][branch] = "7.x-1.x"
@@ -235,12 +241,6 @@ projects[datapublic_variables][download][url] = "git@github.com:reyebrow/datapub
 projects[datapublic_variables][download][branch] = "7.x-1.x"
 projects[datapublic_variables][subdir] = "datapublic_features"
 projects[datapublic_variables][type] = "module"
-
-projects[datapublic_default_content][download][type] = "git"
-projects[datapublic_default_content][download][url] = "git@github.com:reyebrow/datapublic_default_content.git"
-projects[datapublic_default_content][download][branch] = "7.x-1.x"
-projects[datapublic_default_content][subdir] = "datapublic_features"
-projects[datapublic_default_content][type] = "module"
 
 projects[datapublic_demo][download][type] = "git"
 projects[datapublic_demo][download][url] = "git@github.com:reyebrow/datapublic_demo.git"
