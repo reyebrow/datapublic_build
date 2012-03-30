@@ -122,7 +122,7 @@ projects[tao][version] = "3.0-beta4"
 
 projects[cogito][download][type] = "git"
 projects[cogito][download][url] = "git@github.com:reyebrow/cogito.git"
-projects[cogito][download][branch] = "7.x-1.x"
+projects[cogito][download][branch] = "datapublic"
 projects[cogito][type] = "theme"
 
 projects[datapublic_theme][download][type] = "git"

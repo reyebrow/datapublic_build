@@ -147,7 +147,6 @@ dependencies[] = datapublic_profiles
 dependencies[] = datapublic_services
 dependencies[] = datapublic_slideshow
 dependencies[] = datapublic_videos
-dependencies[] = datapublic_documents
 
 dependencies[] = datapublic_breadcrumbs
 dependencies[] = datapublic_menublocks
@@ -156,6 +155,7 @@ dependencies[] = datapublic_superfish
 dependencies[] = datapublic_contexts
 dependencies[] = datapublic_variables
 dependencies[] = datapublic_demo
+dependencies[] = datapublic_documents
 
 
 dependencies[] = datapublic_permissions
